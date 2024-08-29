@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/08/2024, 8:43:36 p. m.
+    Author     : user
+*/
+/* estilos.css */
+*{
+    box-sizing: border-box;
+    color: #000;
+}
+
+h1 {
+    color: #0097B2; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 300px;
+    padding: 20px; 
+    border-radius: 10px;
+    margin: auto;
+    background-color: #FCFCFC; 
+}
+
+form label {
+    display: block; 
+    font-weight: bold;
+    color: #000; 
+    margin-bottom: 5px; 
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea,
+form select {
+    width: calc(100% - 22px); 
+    padding: 8px 12px; 
+    border: 1px solid #9FE2BF; 
+    border-radius: 3px;
+    background-color: #FCFCFC;
+    margin-bottom: 16px; 
+    display: block; 
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px 16px;
+    margin-top: 13px; 
+    border: 1px solid #0097B2; 
+    border-radius: 5px;
+    display: block;
+    color: #FFF; 
+    background-color: #0097B2; 
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #5AA59B; 
+}
+
+textarea {
+    border: 1px solid #9FE2BF; 
+    background-color: #FCFCFC;
+    margin-bottom: 13px; 
+    resize: none;
+    display: block;
+}
+
+select {
+    border: 1px solid #9FE2BF; 
+    background-color: #FCFCFC; 
+    margin-bottom: 13px; 
+}
+
+select option {
+    background-color: #FCFCFC;
+    color: #000; 
+}
+
